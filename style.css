@@ -391,3 +391,52 @@ img.sit-image {
   max-width: 80%;  /* Adjust percentage as needed */
   height: auto;    /* Maintain aspect ratio */
 }
+
+/* Experience */
+/* Experience Section */
+#experience {
+  background: #021024;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-item {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-left: 5px solid #00D1FF;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.experience-role {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.experience-company {
+  color: gray;
+  margin: 5px 0;
+  margin-bottom: 20px;
+  text-decoration: none; /* Remove default underline */
+}
+
+.experience-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.experience-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
